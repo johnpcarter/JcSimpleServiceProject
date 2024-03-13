@@ -31,6 +31,14 @@ services:
   packages:
   - name: JcSimpleServiceProject
     version: "1.0"
+- serviceName: project.jcsimpleservice.integrations:conx
+  packages:
+  - name: JcSimpleServiceProject
+    version: "1.0"
+- serviceName: project.jcsimpleservice.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.operations.actions:conn
+  packages:
+  - name: JcSimpleServiceProject
+    version: "1.0"
 configurationVariables:
   jdbc.jdbcTestPool.snoopparms: ddtdbg.ProtocolTraceEnable=true;ddtdbg.ProtocolTraceMaxline=16;ddtdbg.ProtocolTraceLocation=logs/snoop/jdbcTestPool.log;ddtdbg.ProtocolTraceShowTime=true
   ? artConnection.JcSimpleServiceProject.project.jcsimpleservice.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections.Database_1.connectionSettings.databaseName
