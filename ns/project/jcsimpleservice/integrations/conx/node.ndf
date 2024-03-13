@@ -45,9 +45,8 @@
   <value name="retry_max">0</value>
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
-    <value name="createdBy">asam</value>
-    <value name="createdDate">1710327036936</value>
-    <value name="lastModifiedDate">1710327036936</value>
+    <value name="lastModifiedBy">asam</value>
+    <value name="lastModifiedDate">1710327050371</value>
     <record name="edgeServer" javaclass="com.wm.util.Values">
       <value name="id">c700f6aedadf45cab77365d4b75bc4d2</value>
       <value name="group">default</value>
@@ -63,10 +62,8 @@
         <value name="name">Database</value>
         <value name="providerName">WmJDBCAdapter</value>
         <record name="operation" javaclass="com.wm.util.Values">
-          <value name="operationName">conn</value>
-          <null name="description"/>
-          <value name="isCustom">true</value>
-          <value name="operationType">actions</value>
+          <value name="operationName"></value>
+          <value name="operationType"></value>
           <value name="projectName">project.jcsimpleservice</value>
         </record>
         <value name="appType">predefined</value>
